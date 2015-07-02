@@ -1,0 +1,39 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.shape {
+  width: 100%;
+  margin:0 auto;
+  position: relative;
+  background: #f65058;
+}
+
+.shape-content {
+	max-width: 1170px;
+	margin:0 auto;
+  padding: 200px 15px 200px 15px;
+}
+
+.shape-content h1 {
+	margin: 0px;
+	padding: 0px 15px;
+	z-index: 9;
+	position: relative;
+	color: #ffffff;
+	font-size: 50px;
+	font-family:"Raisonne Demibold", 'Century Gothic', Verdana, sans-serif; font-size-adjust:0.5; font-weight:600; font-style:normal;
+	text-align: center;
+	text-shadow: 0px 2px 4px #444444;
+	font-weight: 300;
+}
+
+.top {
+  position: absolute;
+	top: 0;
+	left: 0;
+  border-style:solid;
+  border-color:transparent transparent #002FA7 #002FA7;
+  z-index: 1;
+}
